@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dom Learning Projects</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="04_Project4.css">
+</head>
+<body>
+<nav>
+   <a href="#">Home</a>
+   <a href="#">My YOutube Channel</a>
+</nav>
+<div class="wrapper">
+   <h1>Number Guessing Game</h1>
+   <p>Try and guess a random number between 1 to 100.</p>
+   <p>You have 10 attemps to guess the right number.</p>
+</div>
+<br>
+<form class="form"> 
+   <label for="guessfield" id="guess">Guess a Numbe</label><br>
+   <input type="text" id="guessfield" class="guessfield" maxlength="6"><br><br>
+   <input type="submit" id="submt" class="guessSubmit" value="submit  guess"
+</form>
+
+<div class="resultPress">
+   <p>Previous Guess: 
+      <span class="guesses"></span>
+   </p>
+   <p>Guessses Remaining: 
+      <span class="lastResult">10</span>
+   </p>
+   <p class="LowOrHigh"></p>
+</div>
+</body>
+<script src="04_Project4.js"></script>
+</html>
